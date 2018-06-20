@@ -1,0 +1,39 @@
+--
+title: "Homework: Use R as GIS"
+output: github_document
+---
+Based on the accident dataset ('accident.dbf') we used last week, please
+write R scripts to finish the following two tasks:
+
+1. Map the locations of accidents based on the lat/long and use the United
+   States state boundary as the background (the boundary shapefile is in
+   the folder 'Data/US'). The result map should have the basic cartographic
+   elements (e.g., map scale, compass). Please note the `accident.dbf` can
+   be loaded by the following codes, and there are invalid values for
+   lat/long column that you probably need to clean up before use (see the
+   example code in the homework \#2).  
+
+```{r load, eva=T, echo=T, results='hide'}
+library(foreign)
+accident=read.dbf('Data/accident.dbf')
+
+# Step 1: Clean up the data first
+
+# Step 2: Map 
+
+```
+
+2. In the folder 'Data/Texas' contains the boundary of Texas counties.
+   Using the `accident.dbf' data, please count the number of accidents for
+   each county and make a county map based on the value of count you
+   calculated. 
+
+```{r texas, eva=T, echo=T, results='hide'}
+library(foreign)
+accident=read.dbf('Data/accident.dbf')
+
+# Use the function  *over()*; see the example codes for the case of bears and parks
+# in the lecture
+
+```
+
