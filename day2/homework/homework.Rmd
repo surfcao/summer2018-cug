@@ -1,5 +1,5 @@
 ---
-title: "Week 7 Homework"
+title: "Day 2 Homework"
 output: github_document
 ---
 
