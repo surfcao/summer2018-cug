@@ -109,7 +109,7 @@ points(bg2, cex=0.5)
 
 # Pseudo-absense
 
-file <- paste(system.file(package="dismo"), '/ex/acaule.csv' , sep='')
+file <- paste(system.file(package="dismo"), '/ex/bradypus.csv' , sep='')
 ac <- read.csv(file)
 coordinates(ac) <- ~lon+lat
 proj4string(ac)<-CRS('+proj=longlat +datum=WGS84')
