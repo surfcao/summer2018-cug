@@ -26,7 +26,8 @@ data(meuse)
 coordinates(meuse)=~x+y
 proj4string(meuse) = CRS('+init=epsg:28992')
 
-plotGoogleMaps(meuse, filename = 'meuse.html')
+plot(meuse)
+#plotGoogleMaps(meuse, filename = 'meuse.html')
 ```
 
 We first explored the data a little more to get more comfortable with the
