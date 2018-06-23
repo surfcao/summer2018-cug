@@ -9,7 +9,7 @@ rm(list=ls())
 library(sp) 
 library(gstat) 
 library(RColorBrewer) 
-library(plotGoogleMaps)
+#library(plotGoogleMaps)
 ```
 
 # Data
